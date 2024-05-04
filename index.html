@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Notifications page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <h1>Notifications</h1>
+      <div class="notif-count">3</div>
+    </div>
+    <button class="read-btn">Mark all as read</button>
+  </header>
+  <main>
+    <button class="unread" class="notification">
+      <div class="picture">
+        <a href="#">
+          <img src="../assets/images/avatar-mark-webber.webp" class="profile" alt="Mark Webber profile picture">
+        </a>
+      </div>
+      <div>
+        <p class="text-notif"><span style="font-weight: 800; color:hsl(224, 21%, 14%); margin-right: 0.3em;">Mark Webber</span>reacted to your recent post<a href="#" class="profile-link">My first tournament today!</a><small></small></p>
+        <p class="time-notif">1m ago</p>
+      </div>
+    </button>
+    <button class="unread" class="notification">
+      <div class="picture">
+        <a href="#">
+          <img src="../assets/images/avatar-angela-gray.webp" class="profile" alt="Angela Gray profile picture">
+        </a>
+      </div>
+      <div>
+        <p class="text-notif"><span style="font-weight: 800; color:hsl(224, 21%, 14%); margin-right: 0.3em;">Angela Gray</span>followed you<small></small></p>
+        <p class="time-notif">5m ago</p>
+      </div>
+    </button>
+    <button class="unread" class="notification">
+      <div class="picture">
+        <a href="#">
+      <img src="../assets/images/avatar-jacob-thompson.webp" class="profile" alt="Jacob Thompson profile picture">
+        </a>
+      </div>
+      <div>
+        <p class="text-notif"><span style="font-weight: 800; color:hsl(224, 21%, 14%); margin-right: 0.3em;">Jacob Thompson</span>has joined your group<a href="#" class="profile-link">Chess Club</a><small></small></p>
+        <p class="time-notif">1 day ago</p>
+      </div>
+    </button>
+    <button class="read" class="notification">
+      <div class="picture">
+        <a href="#">
+          <img src="../assets/images/avatar-rizky-hasanuddin.webp" class="profile" alt="Rizky Hasanuddin profile picture">
+        </a>
+      </div>
+      <div>
+        <p class="text-notif"><span style="font-weight: 800; color:hsl(224, 21%, 14%); margin-right: 0.3em;">Rizky Hasanuddin</span>sent you a private message</p>
+        <p class="time-notif">5 days ago</p>
+        <div class="message">
+          <p>Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and 
+              I'm already having lots of fun and improving my game.
+          </p>
+        </div>
+      </div>
+    </button>
+    <button class="read" id="notif-5">
+      <div class="picture">
+        <a href="#">
+          <img src="../assets/images/avatar-kimberly-smith.webp" class="profile" alt="Kimberly Smith profile picture">
+        </a>
+      </div>
+      <div>
+        <p class="text-notif"><span style="font-weight: 800; color:hsl(224, 21%, 14%); margin-right: 0.3em;">Kimberly Smith</span>commented on your picture</p>
+        <p class="time-notif">1 week ago</p>
+      </div>
+      <div>
+        <a href="#"><img src="assets/images/image-chess.webp" class="chess-picture" alt="girl playing chess"></a>
+      </div>
+    </button>
+    <button class="read">
+      <div>
+        <a href="#">
+          <img src="../assets/images/avatar-nathan-peterson.webp" class="profile" alt="Nathan Peterson profile picture">
+        </a>
+      </div>
+      <div>
+        <p class="text-notif"><span style="font-weight: 800; color:hsl(224, 21%, 14%); margin-right: 0.3em;">Nathan Peterson</span>reacted to your recent post<a href="#" class="profile-link">My first tournament today!</a></p>
+        <p class="time-notif">2 weeks ago</p>
+      </div>
+    </button>
+    <button class="read">
+      <div>
+        <a href="#">
+        <img src="../assets/images/avatar-anna-kim.webp" class="profile" alt="Anna Kim profile picture">
+        </a>
+      </div>
+      <div>
+        <p class="text-notif"><span style="font-weight: 800; color:hsl(224, 21%, 14%); margin-right: 0.3em;">Anna Kim</span>left the group<a href="#" class="profile-link">Chess Club</a></p>
+        <p class="time-notif">2 weeks ago</p>
+      </div>
+    </button>
+  </main>
+<script src="index.js"></script>
+</body>
+</html>
